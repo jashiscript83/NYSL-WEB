@@ -1,0 +1,571 @@
+h1 {
+    margin: 0%;
+    color:crimson;
+    font-size: 75px;
+    font-style: oblique;
+    font-family: fantasy;
+    width:100%;
+    height: 48%;
+    grid-column:1/8;
+    background-image:url(nikkei_00.png);
+    background-repeat: repeat;
+   }
+.pageTitle {
+    color: red;
+    font-size: 27px; 
+    font-family: cursive;
+    font-style: oblique;
+    width: 50%;
+    grid-column:3/4;
+    grid-row: 2/3;
+            }
+
+p {
+    float: none;
+    font-size: 15px;
+    color: navy;
+    font-family: fantasy;
+    margin: 0 20%;
+                   }
+.bowl {
+    position: absolute;
+    top: 0px;
+    width: 10%;
+    height: 90px;
+    margin-top: 100px; 
+       }
+.monthTitle {    
+    font-family: fantasy;
+    font-style: italic;
+    color: yellow;
+    margin-top: 2%;
+    }
+.subtitle{
+    color: darkblue;
+    font-weight: bold;
+    margin-top: 2%;
+    width: 100%;
+}
+.HOME {
+    width: 100%;  
+    margin-top:10px     
+       }
+.GAME {
+    width: 100%;  
+    margin-top:20px
+    }
+.ABOUT {
+    width: 100%;  
+    margin-top:20px  
+}
+.CONTACT {
+    width: 100%;  
+    margin-top:20px 
+   }
+.RULES {
+    width: 100%;  
+    margin-top:20px;
+  }
+form {
+    background-image: url(formulario1.png);
+    background-size: cover;
+    opacity:0.8;
+    font-weight: bolder;
+    border-radius: 13px;
+}
+.FORM {
+    width: 100%;  
+    margin-top:20px
+}
+a{
+    color:white;      
+    background-color: #4caf7cd9;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 16px;  
+    cursor: pointer;
+    margin-top: -9%;
+    text-decoration: none;
+    font-family: cursive;
+}
+a:active{
+    color:white;      
+    background-color:red;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 16px;  
+    cursor: pointer;
+    margin-top: -9%;
+    text-decoration: none;
+}
+.mailto {
+    background-color:transparent;
+    color: blue;
+    text-decoration-line: underline;
+    font-family: inherit;
+}
+.active{
+    color: yellow;
+    background-color: red;
+}
+h2 {
+    color: firebrick;
+}
+.emailto {
+    margin-top: -10%;
+    color: blue;
+    width: 100%;
+    grid-row: 2/4;
+    grid-column: 2/4;
+   font-family: fantasy;
+ }
+.children3 {
+    position: absolute;
+    left: 1px;
+    top: 0px;
+    width: 100%;
+    height: 350px;
+    margin-top: 80px;
+}
+.contactimage {
+   position: absolute;
+    left: 1px;
+    top: 0px;
+    width: 100%;
+    height: 120px;
+    margin-top: 500px;
+}
+.oliver {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+ }
+.bodytwo {
+    background-image: url(ben.gif);
+   
+}
+.bodythree {
+    background-image: url(contactgif2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+span {
+   font-weight: bold; 
+}
+ol{
+    column-rule-color: black;
+}
+.bodyfour {
+    background: skyblue;
+    }
+.bodygame{
+    background: skyblue;
+    shape-margin: 5%;
+}
+.titletable {
+    font-weight: bolder;
+    text-decoration-line: underline;
+}
+.tabletwo td, .tableone td, .tableone th, .tabletwo th {
+    width: 100px;
+    text-align:justify;
+}
+.tableone, .tabletwo{
+    color:rebeccapurple;
+    font-weight: bold;
+    background-image: url(formulario1.png);
+    background-size: cover;
+    opacity: 0.8;
+}
+span {
+    color: black;
+}
+p {
+    font-family: inherit;
+    color: black;
+}
+.final {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    width: 100%;
+    font-style: fantasy;
+}
+.tablethree {
+    margin-left: inherit;
+    margin: 50px 0px;
+    width: 400px;
+}
+.tablefour{
+    margin: 50px 0px;;
+    width: 500px;
+}
+.Game {
+    margin-top: 5%;
+    margin: 0px 0px;
+    text-align: left;
+    color: red;
+    font-weight: initial;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.adress {
+     display: flex;
+    flex-direction:row;
+    align-content: space-between;
+}
+.street {
+    width:483px;
+    }
+.city {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-content: space-between;
+}
+.zip {
+    width:231px;
+}
+.zipcode {
+    margin-left: 1%;
+}
+.birth {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.gender{
+    margin-left: 2%;
+}
+.grade {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.parent {
+    width: 157px;
+}
+.contact {
+     display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.phone {
+    width: 173px;
+}
+.contacte {
+    margin-left: 1%;
+}
+.ele {
+    margin-left: 55px;
+}
+.mar {
+    margin-left: 10px;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.second {
+    display:flex;
+    flex-direction:column;
+    align-content: space-between;
+}
+.biglist {
+    display: flex;
+    align-content: space-between;
+}
+.pa1 {
+    display: flex;
+    flex-direction:row
+}
+.pa2 {
+    display: flex;
+    flex-direction:row
+}
+.pa3 {
+    display: flex;
+    flex-direction:row
+}
+.what { 
+    margin-left: 0%;
+    width:61%; 
+    display: flex;
+    flex-direction: row;
+}
+.extra {
+    margin-left: 10px;
+}
+.med {
+    margin-left: 18px;
+}
+.extra  {
+    margin-left: 8px;
+}
+.sign {
+    display: flex;
+    flex-direction: row;
+}
+.permissionto {
+ text-decoration: underline;
+} 
+.lastnametip {
+   margin-left: 12px;
+}
+.goalkeeper {
+    margin-left: 7px;
+}
+.orleans {
+    margin-top: 50px;
+}
+.port {
+    margin-top: 50px;
+}
+.orchard {
+    margin-top: 50px;
+}
+.ogden {
+    margin-top: 50px;
+}
+.fremont {
+   margin-top: 50px;
+}
+.grid-container {
+ display: grid;
+ grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+ grid-template-rows:  1fr 1fr 1fr;  
+}
+ul {
+    font-family: fantasy;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.policiesul {
+        
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.please1 {
+     color:yellow;
+    font-size: 15px;
+    font-family: cursive;
+    background-color: cadetblue;
+    opacity: 0.7;
+}
+.please2{
+    margin-top: 20px;
+    color:yellow;
+    font-size: 15px;
+    font-family: cursive;
+    background-color: cadetblue;
+    opacity: 0.7;
+}
+.indexbody {
+    margin-top: -10%;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pageTitlegame { 
+    text-align: center;
+     color: red;
+    font-size: 27px; 
+    font-family: cursive;
+    font-style: oblique;
+    width: 50%;
+    text-align: center;
+}
+.grid-container2 {
+ display: grid;
+ grid-template-columns:1fr 1fr 1fr 1fr  ;
+ grid-template-rows: 1fr 3fr;  
+}
+.ulabout {
+    margin-top: -5%;
+}
+.indexbody2 {
+    margin-left: -20%;
+    grid-column: 2/4;
+}
+.MISION {
+   grid-column: 3/4;
+   text-align: center;
+}
+.pagetitleabout {
+    color: red;
+    font-size: 30px; 
+    font-family: cursive;
+    font-style: oblique; 
+    text-align: center;
+}
+.pageTitle {
+   text-align: right;
+}
+.grid-container3 {
+ display: grid;
+ grid-template-columns:1fr 1fr 1fr 1fr ;
+}
+.indexbody3 {
+   grid-column: 2/4;
+   grid-row: 2/4;
+   margin-top: 10%;
+}
+ .grid-container4 {
+     display: grid;
+ grid-template-columns:1fr 1fr 1fr 1fr 1fr  ;
+}
+.indexbody4 {
+    display: flex;
+   flex-direction: column;
+    grid-column: 2/5;
+}
+.grid-container5 {
+     display: grid;
+     grid-template-columns:1fr 1fr 1fr 1fr 1fr  ;
+}
+.indexbody5 {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/5;
+}
+.ulcontact {
+  margin-top: -18%;
+}
+.bodyindex {
+   background-image: url(ben.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+} 
+.bodyindex h2{
+    margin-left: -10%;
+}
+.bodyabout {
+    font-family: cursive;
+    background-image: url(aa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 130%;
+}
+.bodyabout p{
+    font-weight: bolder;
+}
+.headnorth {
+    height: 55%;
+}
+.bodygame p{
+    color: chartreuse;
+    font-family: cursive;
+}
+.bodygame .allgames{
+    color: crimson;
+}
+.bodygame .mailto{
+    color: CHARTREUSE;
+    margin-left: 0px;
+    font-style: normal;
+    FONT-FAMILY: NONE;
+    text-decoration-line: underline;
+}
+.bodygame td{
+    color:chocolate;
+}
+
+.bodygame {
+    background-image:url(jardin2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headgame {
+    height: 120%;
+}
+.bodyrules {
+    background-image: url(COPI.jpg);    
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.P1 h2{
+    font-size:20px;
+    color: yellow;
+    font-family: NONE;
+}
+.FIFA {
+    margin-left: 0%;
+}
+.bodyrules li, .FIFA{
+    color:black;
+    font-family:cursive;
+}
+.headrules {
+    height: 120%;
+}
+.bodyrules span {
+    font-family: fantasy;
+}
+h2{
+    
+    font-family: fantasy;
+}
+.bodyform {
+    background-image: url(jardin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.headform {
+ height: 120%;
+}
+.ulgame  {
+ margin-top:28%;
+}
+.ulgame li{
+font-family: fantasy;
+} 
+.allgames {
+    color: crimson;
+    font-family: fantasy;
+    margin-left: 0%;
+}
+.tableone td, .tabletwo td{
+    color:red;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information h2 {
+    color: yellow;
+    text-align: left;
+    font-family: none;
+}
+.bodygame h3 {
+    color: yellow;
+    font-family: none;
+}
+.bodygame h4 {
+    color:red;
+    font-family: none;
+    font-weight:bold;
+}
+.locationsgame {
+    font-family: fantasy;
+    text-decoration-color: crimson;
+}
+
+button {
+   
+     font-weight: bold;
+}
